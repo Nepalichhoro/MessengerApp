@@ -6,7 +6,7 @@ First start the backend:
 - npm start
 
 Second start the client
-- cd client
+- cd clientui
 - npm install
 - npm start
 
