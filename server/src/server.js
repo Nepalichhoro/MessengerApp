@@ -51,8 +51,8 @@ app.get('/channels/:channelId/users', (req, res) => {
   return res.json({ users });
 });
 
-app.get('/rooms/:channelId/messages', (req, res) => {
-  const messages = getMessagesInChannel(req.params.roomId);
+app.get('/channels/:channelId/messages', (req, res) => {
+  const messages = getMessagesInChannel(req.params.channelId);
   return res.json({ messages });
 });
 
